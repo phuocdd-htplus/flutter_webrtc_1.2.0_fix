@@ -9,7 +9,10 @@ environment:
 dependencies: 
   http: ^1.1.0
   uuid: ^3.0.6
-  flutter_webrtc: 1.2.0
+  flutter_webrtc:
+    git:
+      url: https://github.com/flutter-webrtc/flutter-webrtc.git
+      ref: duan/downgrade-to-flutter-3.24.5
   web_socket_channel: ^2.4.0
   events_emitter: ^0.5.2
 dev_dependencies: 
